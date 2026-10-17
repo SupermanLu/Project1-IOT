@@ -1,0 +1,35 @@
+# ===== Keil MDK 编译产物 =====
+MDK-ARM/03-work1.0/
+Bootloader/Objects/
+Bootloader/Listings/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.dep
+*.build_log.htm
+*.lst
+*.sct.Bak
+*_sct.Bak
+
+# ===== Keil 用户本地状态(窗口布局/调试缓存, 不进仓库) =====
+*.uvguix.*
+*.bak
+*.INI
+
+# ===== STM32CubeMX 本地备份 =====
+*.ioc.bak
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
